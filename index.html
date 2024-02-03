@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/global_variable.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/slider.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/top_header_category.css">
+    <!-- swiper js css cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- show title -->
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+    </title>
+</head>
+
+<body>
+    <!-- start coding from herr -->
+    <!-- this part is for navbar part -->
+    <!-- start header  -->
+    <!-- navbar part is devid form 2 rows 
+        which is navbar logo and one search bar box
+        and 2nd is sone menu ul li with some icons
+        -->
+    <header class="header">
+        <nav class="navbar">
+            <!-- row 1 is left side -->
+            <div class="nav_row_01">
+                <div class="nav_logo">
+                    <!-- logo -->
+                    <img src="assets/img/logo.svg"  width="100"  alt="flipkart logo" class="navbar_logo_flipkart">
+                </div>
+                <div class="navbar_search_box">
+                    <!-- search bar -->
+                    <div class="search_box">
+                        <!-- search bar icon -->
+                        <img src="assets/img/icon/search_icon.png" width="15" alt="search icon" class="search_con">
+                        <!-- search box input -->
+                        <input type="text" name="search" class="search_box_input"
+                            placeholder="search for products ,brands ...">
+                    </div>
+                </div>
+            </div>
+            <!-- row 2 is right side -->
+            <div class="nav_row_02">
+                <ul class="wrap_navbar_ul_list">
+                    <!-- navbar ul menu list -->
+
+                    <li class="navbar_link">
+                        <!-- navar  ul li icon img  -->
+                        <img src="assets/img/icon/shop_icon.svg" alt="icon " width="17">
+                        <p class="navbar_link_list_p">Became a seller</p>
+                    </li>
+                    <li class="navbar_link">
+                        <!-- navar  ul li icon img  -->
+                        <img src="assets/img/icon/user_icon.svg" alt="icon " width="17">
+                        <p class="navbar_link_list_p">Sign in</p>
+
+                    </li>
+                    <li class="navbar_link">
+                        <!-- navar  ul li icon img  -->
+                        <img src="assets/img/icon/cart_icon.svg" alt="icon " width="17">
+                        <p class="navbar_link_list_p"> Cart</p>
+
+                    </li>
+                    <!-- three dot menu bar btn click to show drop down menu -->
+                    <li class="navbar_link drop-parent_class ">
+                        <!-- navar  ul li icon img  -->
+                        <img src="assets/img/icon/menu_bar_dot.svg" alt="icon " width="17" class="toggle_drop_btn">
+
+                        <!-- drop down menu bar ul  -->
+                        <ul class="navbar_dorpdown_menu_bar  ">
+                            <li class="drop_link">
+                                <img src="assets/img/icon/bell_icon.svg" width="12" alt="" class="drop_li_img_icon">
+                                <p class="drop_li_prea">notification preperances</p>
+                            </li>
+                            <li class="drop_link">
+                                <img src="assets/img/icon/headphone_icon.svg" width="12" alt=""
+                                    class="drop_li_img_icon">
+                                <p class="drop_li_prea">24x7 customer</p>
+                            </li>
+                            <li class="drop_link">
+                                <img src="assets/img/icon/icon_.svg" width="12" alt="" class="drop_li_img_icon">
+                                <p class="drop_li_prea">adverties</p>
+                            </li>
+                            <li class="drop_link">
+                                <img src="assets/img/icon/download_icon.svg" width="12" alt="" class="drop_li_img_icon">
+                                <p class="drop_li_prea">download app</p>
+                            </li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- this is new navbar  when  my display is small so this navbar is showing -->
+    <div class="responsive_new_navbar">
+        <div class="wrap_new_navbar">
+            <div class="top_col">
+                <div class="n_row n_row_n0_1 ">
+                    <img src="assets/img/logo_2.svg" width="80" alt="">
+                </div>
+                <div class="n_row n_row_n0_2 ">
+                    <img src="assets/img/logo_3.svg" width="80" alt="">
+                </div>
+            </div>
+            <div class="bottom_col">
+                <div class="n_row_2">
+                    <div class="search_box search_box_new">
+                        <!-- search bar icon -->
+                        <img src="assets/img/icon/search_icon.png" width="15" alt="search icon" class="search_con">
+                        <!-- search box input -->
+                        <input type="text" name="search" class="search_box_input"
+                            placeholder="search for products ,brands ...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END NAVBAR -->
+
+<!-- product category section slider  -->
+    <div class="product_category">
+        <div class="wrap_product_category_slider">
+            <ul class="pro_cateory_ul">
+                <li class="pro_ul_li">
+                    <img src="assets/img/top_header_banner_img/top_offers.webp" width="40" alt="" class="pro_c_img">
+                    <div class="pro_c_li_pera">top offers</div>
+                </li>
+                <li class="pro_ul_li">
+                    <img src="assets/img/top_header_banner_img/beauty.webp" width="40" alt="" class="pro_c_img">
+                    <div class="pro_c_li_pera">beauty</div>
+                </li>
+                <li class="pro_ul_li">
+                    <img src="assets/img/top_header_banner_img/electronic.webp" width="40" alt="" class="pro_c_img">
+                    <div class="pro_c_li_pera">electronic</div>
+                </li>
+                <li class="pro_ul_li">
+                    <img src="assets/img/top_header_banner_img/fashions.webp" width="40" alt="" class="pro_c_img">
+                    <div class="pro_c_li_pera">fashion</div>
+                </li>
+                <li class="pro_ul_li">
+                    <img src="assets/img/top_header_banner_img/flight.webp" width="40" alt="" class="pro_c_img">
+                    <div class="pro_c_li_pera">flights</div>
+                </li>
+                <li class="pro_ul_li">
+                    <img src="assets/img/top_header_banner_img/fun.webp" width="40" alt="" class="pro_c_img">
+                    <div class="pro_c_li_pera">funiture</div>
+                </li>
+                <li class="pro_ul_li">
+                    <img src="assets/img/top_header_banner_img/grosery.webp" width="40" alt="" class="pro_c_img">
+                    <div class="pro_c_li_pera">grocery</div>
+                </li>
+                <li class="pro_ul_li">
+                    <img src="assets/img/top_header_banner_img/home.webp" width="40" alt="" class="pro_c_img">
+                    <div class="pro_c_li_pera">home & <br> <span>
+                        kitchen
+                    </span> </div>
+                </li>
+                <li class="pro_ul_li">
+                    <img src="assets/img/top_header_banner_img/mobiles_tables.webp" width="40" alt="" class="pro_c_img">
+                    <div class="pro_c_li_pera">mobiles & <br><span>
+                        tablets
+                    </span> </div>
+                </li>
+                <li class="pro_ul_li">
+                    <img src="assets/img/top_header_banner_img/tv_.webp" width="40" alt="" class="pro_c_img">
+                    <div class="pro_c_li_pera">tv & <br> <span>
+                        appiliance
+                    </span> </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- product slider -->
+    <div class="slider_container">
+        <!--  swiper js slider html code  -->
+      <div class="wrap_slider">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="assets/img/top_header_slider_img/slider_1.webp" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/top_header_slider_img/slider_2.webp" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/top_header_slider_img/slider_3.webp" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/top_header_slider_img/slider_4.webp" alt=""></div>
+              <div class="swiper-slide"><img src="assets/img/top_header_slider_img/slider_5.webp" alt=""></div>
+           
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </div>
+    </div>
+
+    <!-- swiper js cdm  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="logic/script.js"></script>
+    <script src="logic/nav.js"></script>
+    <!-- swiper js slider file -->
+    <script src="logic/slider.js"></script>
+</body>
+
+</html>

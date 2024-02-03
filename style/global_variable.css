@@ -1,0 +1,19 @@
+@import url(style.css);
+@import url(navbar.css);
+@import url(top_header_category.css);
+@import url(slider.css);
+
+/* make a some variable  */
+:root {
+    --white_background: white;
+    --blue_background: #2a55e5;
+    --max_w: 1500px;
+    --search_box_bg: #f0f5ff;
+    --body_bg: #f1f2f4;
+    --background-transparent : rgba(0, 0, 0, 0);
+    --tt : capitalize;
+    --ff_a :  Arial, Helvetica, sans-serif;
+    --light_blue : #f2f4f7;
+    /* responsive value variable */
+    --res_max_w: 600px;
+}
